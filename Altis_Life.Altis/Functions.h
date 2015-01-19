@@ -119,6 +119,7 @@ class Life_Client_Core
 		class robLBank {}; //Rob L Bank    		
 		class takeOrgans {};
 		class gpsTracker {};
+		class suicideBomb  {};
 	};
 	
 	class Housing
