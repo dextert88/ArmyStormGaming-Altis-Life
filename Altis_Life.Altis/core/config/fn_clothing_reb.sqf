@@ -83,8 +83,9 @@ switch (_filter) do
 			["V_HarnessO_brn",nil,7500],
 			["V_I_G_resistanceLeader_F",nil,12500],
 			["V_PlateCarrierH_CTRG",nil,12500],
+			["V_HarnessOGL_gry","Suicide Vest",1000000],
 			["V_PlateCarrierIAGL_dgtl",nil,12500],
-      ["V_Chestrig_khk",nil,12500]
+			["V_Chestrig_khk",nil,12500]
 		];
 	};
 	
