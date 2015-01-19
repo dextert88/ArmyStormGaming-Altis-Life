@@ -121,11 +121,11 @@ switch (_code) do
 		}
 		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
-		if ([false,"handcuffs",1] call life_fnc_handleInv) then
-		{
-			[] call life_fnc_restrainAction;
-			life_inv_handcuffs = life_inv_handcuffs - 1;
-		}
+			if ([false,"handcuffs",1] call life_fnc_handleInv) then
+			{
+				[] call life_fnc_restrainAction;
+				life_inv_handcuffs = life_inv_handcuffs - 1;
+			}
 		};
 		// Civs - > Cops
 		if(_shift) then {_handled = true;};
@@ -135,12 +135,11 @@ switch (_code) do
 		}
 		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget == west) && alive cursorTarget && cursorTarget distance player < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
-		
-		if ([false,"handcuffs",1] call life_fnc_handleInv) then
-		{
-			[] call life_fnc_restrainAction;
-			life_inv_handcuffs = life_inv_handcuffs - 1;
-		}
+			if ([false,"handcuffs",1] call life_fnc_handleInv) then
+			{
+				[] call life_fnc_restrainAction;
+				life_inv_handcuffs = life_inv_handcuffs - 1;
+			}
 		};
 		
 	};
