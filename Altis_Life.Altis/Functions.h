@@ -380,6 +380,7 @@ class Life_Client_Core
 		class drinkwhiskey {};
 		class weed {};
         class heroin {};
+		class speedBomb {};
 	};
 
 	class anstrich

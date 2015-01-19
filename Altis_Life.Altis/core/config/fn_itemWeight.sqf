@@ -70,6 +70,7 @@ switch (_item) do
 	case "bottledbeer": {5};
 	case "bottledshine": {5};
 	case "bottles": {1};
-  case "fishchips": {2};
+	case "fishchips": {2};
+	case "speedbomb": {10};
 	default {1};
 };

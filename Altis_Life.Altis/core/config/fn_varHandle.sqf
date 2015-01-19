@@ -87,7 +87,8 @@ switch (_mode) do
 			case "whiskey": {"life_inv_whiskey"};
 			case "mash": {"life_inv_mash"};
 			case "gpstracker": {"life_inv_gpstracker"};
-      case "fishchips": {"life_inv_fishchips"};
+			case "fishchips": {"life_inv_fishchips"};
+			case "speedbomb": {"life_inv_speedbomb"};
 		};
 	};
 	
@@ -166,7 +167,8 @@ switch (_mode) do
 			case "life_inv_bottledshine": {"bottledshine"};
 			case "life_inv_moonshine": {"moonshine"};
 			case "life_inv_gpstracker": {"gpstracker"};
-      case "life_inv_fishchips": {"fishchips"};
+			case "life_inv_fishchips": {"fishchips"};
+			case "life_inv_speedbomb": {"speedbomb"};
 		};
 	};
 };

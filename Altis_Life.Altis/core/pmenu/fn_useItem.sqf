@@ -136,6 +136,11 @@ switch (true) do
 	{
 		[_item] call life_fnc_eatFood;
 	};
+	
+	case (_item == "speedbomb"):
+	{
+		[] spawn life_fnc_speedBomb;
+	};
 
 	case (_item == "pickaxe"):
 	{

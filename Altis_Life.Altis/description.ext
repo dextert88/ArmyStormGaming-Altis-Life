@@ -80,6 +80,12 @@ class CfgSounds
 		sound[] = {"\sounds\intro.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	class bombarm
+	{
+		name = "bombarm";
+		sound[] = {"\sounds\bombarm.ogg", 1.0, 1};
+		titles[] = {};
+	}; 
  	class spraycan
  	 {
     		name = "spraycan";	

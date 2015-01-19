@@ -82,7 +82,8 @@ switch (_var) do
 	case "life_inv_bottledshine": {"Bottled Moonshine"};
 	case "life_inv_moonshine": {"Distilled Moonshine"};
 	case "life_inv_gpstracker": {"Tracking Device"};
-  case "life_inv_fishchips": {(localize "STR_Item_FishChips")};
+	case "life_inv_fishchips": {(localize "STR_Item_FishChips")};
+	case "life_inv_speedbomb": {"Speed Bomb"};
 
 	
 	//License Block
