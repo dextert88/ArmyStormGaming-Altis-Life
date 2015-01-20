@@ -283,6 +283,7 @@ switch(_shop) do
 			{
 				["Mohammed's Jihadi Shop",
 					[
+						["Rangefinder",nil,5000],
 						["NVGoggles_OPFOR",nil,1000],
 						["arifle_TRG20_F",nil,25000],
 						["srifle_GM6_SOS_F",nil,3000000],

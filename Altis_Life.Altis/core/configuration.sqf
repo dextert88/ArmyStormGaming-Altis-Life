@@ -344,6 +344,7 @@ __CONST__(buy_array,buy_array);
 
 life_weapon_shop_array =
 [
+	["Rangefinder", 5000],
 	["arifle_sdar_F",7500],
 	["hgun_P07_snds_F",650],
 	["hgun_P07_F",1500],
