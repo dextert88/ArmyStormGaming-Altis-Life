@@ -117,7 +117,7 @@ switch (_code) do
 		if(_shift) then {_handled = true;};
 		if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && isPlayer cursorTarget && !(cursorTarget getVariable "Escorting") && (cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
-			[] call life_fnc_unrestrainAction;
+			[] call life_fnc_unrestrain;
 		}
 		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
@@ -131,7 +131,7 @@ switch (_code) do
 		if(_shift) then {_handled = true;};
 		if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && isPlayer cursorTarget && !(cursorTarget getVariable "Escorting") && (cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
-			[] call life_fnc_unrestrainAction;
+			[] call life_fnc_unrestrain;
 		}
 		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget == west) && alive cursorTarget && cursorTarget distance player < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
